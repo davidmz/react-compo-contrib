@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sharedState should propagate shared state with selector 1`] = `
+<Tree>
+  <div>
+    <Leaf>
+      <p>
+        The 'a' field is 
+        1
+      </p>
+    </Leaf>
+    <Leaf>
+      <p>
+        The 'a' field is 
+        1
+      </p>
+    </Leaf>
+    <button
+      onClick={[Function]}
+    >
+      a + 1
+    </button>
+  </div>
+</Tree>
+`;
+
+exports[`sharedState should propagate shared state with selector 2`] = `
+<Tree>
+  <div>
+    <Leaf>
+      <p>
+        The 'a' field is 
+        2
+      </p>
+    </Leaf>
+    <Leaf>
+      <p>
+        The 'a' field is 
+        2
+      </p>
+    </Leaf>
+    <button
+      onClick={[Function]}
+    >
+      a + 1
+    </button>
+  </div>
+</Tree>
+`;
+
+exports[`sharedState should propagate the shared state 1`] = `
+<Tree>
+  <div>
+    <Leaf>
+      <p>
+        The number is 
+        42
+      </p>
+    </Leaf>
+    <Leaf>
+      <p>
+        The number is 
+        42
+      </p>
+    </Leaf>
+    <button
+      onClick={[Function]}
+    >
+      +1
+    </button>
+  </div>
+</Tree>
+`;
+
+exports[`sharedState should propagate the shared state 2`] = `
+<Tree>
+  <div>
+    <Leaf>
+      <p>
+        The number is 
+        43
+      </p>
+    </Leaf>
+    <Leaf>
+      <p>
+        The number is 
+        43
+      </p>
+    </Leaf>
+    <button
+      onClick={[Function]}
+    >
+      +1
+    </button>
+  </div>
+</Tree>
+`;

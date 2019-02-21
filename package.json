@@ -1,0 +1,39 @@
+{
+  "name": "react-compo-contrib",
+  "version": "0.1.0",
+  "description": "Some hooks for the react-compo",
+  "homepage": "https://github.com/davidmz/react-compo-contrib",
+  "author": "David Mzareulyan <david@hiero.ru> (https://github.com/davidmz)",
+  "license": "MIT",
+  "main": "build/cjs/index.js",
+  "module": "build/esm/index.js",
+  "types": "build/esm/index.d.ts",
+  "scripts": {
+    "prepack": "jest && del-cli *.tgz build && tsc && tsc -p ./tsconfig.esm.json",
+    "postpack": "del-cli build",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.1.15",
+    "@types/enzyme-adapter-react-16": "^1.0.3",
+    "@types/jest": "^23.3.10",
+    "@types/node": "^10.12.18",
+    "@types/react-dom": "^16.0.11",
+    "del-cli": "^1.1.0",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "enzyme-to-json": "^3.3.5",
+    "jest": "^23.6.0",
+    "prettier": "1.16.4",
+    "react-dom": "^16.7.0",
+    "ts-jest": "^23.10.5",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "@types/react": "^16.7.18",
+    "react": "^16.7.0",
+    "react-compo": "^0.1.0",
+    "tslib": "^1.9.3"
+  }
+}
